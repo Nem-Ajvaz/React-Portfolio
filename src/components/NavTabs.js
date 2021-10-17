@@ -2,9 +2,9 @@ import React from "react";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div style={{ backgroundColor: "#005b96" }}>
-      <h1 style={{ margin: "0px", padding: "0px" }}>Nemanja Ajvaz</h1>
-      <ul className="nav nav-tabs">
+    <nav className="navBarContainer">
+      <h1>Nem Ajvaz</h1>
+      <ul className="nav-links">
         <li className="nav-item">
           <a
             href="#about"
@@ -46,7 +46,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
 
