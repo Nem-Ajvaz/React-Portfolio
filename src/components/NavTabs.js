@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -52,6 +53,26 @@ function NavTabs({ currentPage, handlePageChange }) {
           </li>
         </ul>
       </nav>
+      <section className="typeWrtier">
+        <Typewriter
+          options={{
+            strings: [
+              "JavaScript",
+              "NodeJS",
+              "React",
+              "SQL",
+              "HTML",
+              "CSS",
+              "Scrum",
+              "Kanban",
+              "Jira",
+              "NPM",
+            ],
+            autoStart: true,
+            loop: true,
+          }}
+        ></Typewriter>
+      </section>
     </div>
   );
 }

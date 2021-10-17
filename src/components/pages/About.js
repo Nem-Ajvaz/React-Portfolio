@@ -1,8 +1,10 @@
 import React from "react";
+import Portrait from "../../assets/images/me.jpg";
 
 export default function About() {
   return (
     <div className="about-me">
+      <img src={Portrait} className="portrait" />
       <h1>About Me</h1>
       <p>
         Hi I'm Nem, I graduated from RMIT with a Bachelor of Engineering
