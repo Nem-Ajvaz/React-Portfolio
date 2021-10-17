@@ -22,8 +22,13 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .navBarContainer {
-  height: 70px;
+  height: 90px;
   background-color: #005b96;
   display: flex;
   justify-content: space-between;
@@ -59,4 +64,25 @@ html {
   font-size: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+.nav-links ul li a:hover {
+  border: 2px solid var(--white);
+  border-radius: 3px;
+}
+
+.about-me {
+  text-align: center;
+  margin: auto;
+  padding: 60px;
+  width: 80%;
+}
+
+/* P styling */
+.about-me p {
+  text-align: center;
+  font-size: 1.15rem;
+  margin: auto;
+  padding: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
 }
