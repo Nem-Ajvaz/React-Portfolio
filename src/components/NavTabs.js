@@ -23,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
               className={
-                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+                currentPage === "Portfolio" ? "nav-link-on" : "nav-link"
               }
             >
               Portfolio
@@ -65,8 +65,8 @@ function NavTabs({ currentPage, handlePageChange }) {
               "CSS",
               "Scrum",
               "Kanban",
-              "Jira",
-              "NPM",
+              "JIRA",
+              "Heroku",
             ],
             autoStart: true,
             loop: true,

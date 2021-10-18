@@ -18,12 +18,12 @@ body {
 }
 
 html {
-  height: 100%;
   scroll-behavior: smooth;
 }
 
 body {
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
 }
 
@@ -71,7 +71,7 @@ body {
   border-radius: 3px;
 }
 
-.nav-link {
+.nav-link-on {
   border: 2px solid var(--white);
   border-radius: 3px;
 }
@@ -91,6 +91,7 @@ body {
 }
 
 .about-me {
+  display: flex;
   text-align: center;
   margin: auto;
   padding: 60px;
@@ -98,15 +99,169 @@ body {
 }
 
 /* P styling */
-.about-me p {
+
+.about-me div {
+  flex-direction: column;
+  align-self: center;
+}
+
+.about-me-p {
   text-align: center;
-  font-size: 1.15rem;
+  font-size: 15px;
   margin: auto;
   padding: 1rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
 }
 
 .portrait {
-  height: 400px;
+  height: 600px;
   border-radius: 50px;
+  margin-right: 50px;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.work-container div {
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin: 50px 5px;
+  width: 45%;
+  border: 2px solid var(--calmBlue);
+  border-radius: 15px;
+}
+
+.work-container div h3,
+.work-container div p {
+  text-align: center;
+}
+
+.work-container div :nth-child(2) {
+  /* width: 80%; */
+  text-align: center;
+}
+
+.work-container div p a {
+  color: black;
+  padding: 3px 12px;
+  border-radius: 3px;
+  width: 400px;
+  border: 2px solid var(--calmBlue);
+}
+
+.work-container div img {
+  height: 400px;
+  width: 100%;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: sub;
+  background-color: var(--calmBlue);
+}
+
+.footer h2 {
+  margin: 20px 40px 20px 40px;
+  color: white;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Creating a flex container */
+.footer ul {
+  display: flex;
+}
+
+/* Styling and aligning the list items*/
+.footer ul li {
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.footer-li {
+  text-decoration: none;
+  align-self: right;
+  border: 2px solid var(--calmBlue);
+  margin: 10px 20px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: var(--white);
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Hovering over images */
+.footer-li:hover {
+  border: 2px solid var(--white);
+  border-radius: 3px;
+}
+
+a {
+  text-decoration: none;
+}
+a {
+  color: var(--white);
+} /* Unvisited link  */
+a:visited {
+  color: var(--white);
+} /* Visited link    */
+a:hover {
+  color: var(--white);
+} /* Mouse over link */
+a:active {
+  color: var(--white);
+}
+
+footer .contact-me {
+  align-items: center;
+}
+
+.contactContainer {
+  display: block;
+}
+.contactHeader {
+  text-align: center;
+}
+
+.formContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.formContainer p {
+  font-size: 25px;
+}
+
+.formContainer p input {
+  padding-left: 10px;
+  font-size: 15px;
+  margin: 40px;
+  height: 40px;
+  width: 600px;
+  border-radius: 10px;
+}
+.formContainer button {
+  margin: 40px;
+  height: 40px;
+  width: 600px;
+  font-size: 25px;
+}
+
+.formContainer textarea {
+  font-size: 20px;
+  padding-left: 10px;
+  height: 400px;
+  width: 80%;
+  border-radius: 10px;
 }
