@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <header>
       <nav className="navBarContainer">
         <h1>Nem Ajvaz</h1>
         <ul className="nav-links">
@@ -73,7 +73,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           }}
         ></Typewriter>
       </section>
-    </div>
+    </header>
   );
 }
 

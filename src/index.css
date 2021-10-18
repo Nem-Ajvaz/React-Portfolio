@@ -16,15 +16,34 @@ body {
   margin: 0;
   padding: 0;
 }
+html,
+body,
+#root,
+.mainPage {
+  height: 100%;
+}
+
+.mainPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainClass {
+  display: flex;
+  justify-content: center;
+}
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+header,
+footer {
+  flex: 0 1 auto;
+}
+
+main {
+  flex: 1 1 auto;
 }
 
 .navBarContainer {

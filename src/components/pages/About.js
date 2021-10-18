@@ -6,7 +6,7 @@ export default function About() {
     <div className="about-me">
       <img src={Portrait} alt="Self Portrait" className="portrait" />
       <div>
-        <h2> I'm Nem</h2>
+        <h2> Hi, I'm Nem</h2>
         <p className="about-me-p">
           I graduated from RMIT with a Bachelor of Engineering (Computing and
           Networking) in 2017. Since then I have been employed by Mondo, a
