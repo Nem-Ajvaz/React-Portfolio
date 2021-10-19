@@ -44,7 +44,7 @@ function Contact() {
   return (
     <div className="contactContainer">
       <div className="contactHeader">
-        <h1>Contact Me</h1>
+        <h1 className="contactH1">Contact Me</h1>
       </div>
 
       <form className="formContainer">

@@ -2,6 +2,8 @@ import React from "react";
 import Details from "./Details";
 import Chirper from "../../assets/images/Chirper.gif";
 import ReelMovies from "../../assets/images/ReelMovies.gif";
+import NoteTaker from "../../assets/images/NoteTaker.gif";
+import WeatherApp from "../../assets/images/WeatherApp.gif";
 
 const portfolioContent = [
   {
@@ -29,19 +31,21 @@ const portfolioContent = [
     technologies: "Express, JavaScript",
     githubLink: "https://github.com/Nem-Ajvaz/Note-Taker-Express",
     liveLink: "https://nemsnotetaker.herokuapp.com/notes",
+    gif: NoteTaker,
   },
   {
     name: "Weather Dashboard",
     description:
-      "The purpose of this project was to build a simple weather forecast app for viewing a daily and 5-day forecast.",
+      "The purpose of this project was to build a simple weather forecast app for viewing a daily and 5-day forecast using an API and local storage.",
     technologies: "Jquery, LocalStorage, API",
     githubLink: "https://github.com/Nem-Ajvaz/homework_6",
     liveLink: "https://nem-ajvaz.github.io/homework_6/",
+    gif: WeatherApp,
   },
   {
     name: "Day Planner",
     description:
-      "The purpose of this project was to build a simple calendar app for scheduling your working day.",
+      "The purpose of this project was to build a simple calendar app for scheduling your working day and help with your organisation.",
     technologies: "Jquery, LocalStorage,",
     githubLink: "https://github.com/Nem-Ajvaz/homework_5",
     liveLink: "https://nem-ajvaz.github.io/homework_5/",
