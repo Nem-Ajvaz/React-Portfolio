@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.0ed37701.chunk.css",
+    "main.css": "/React-Portfolio/static/css/main.c2aeffea.chunk.css",
     "main.js": "/React-Portfolio/static/js/main.0c16980f.chunk.js",
     "main.js.map": "/React-Portfolio/static/js/main.0c16980f.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.7855121e.js",
@@ -10,7 +10,7 @@
     "static/js/2.b80c25e9.chunk.js.map": "/React-Portfolio/static/js/2.b80c25e9.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.63f5f3d7.chunk.css.map": "/React-Portfolio/static/css/2.63f5f3d7.chunk.css.map",
-    "static/css/main.0ed37701.chunk.css.map": "/React-Portfolio/static/css/main.0ed37701.chunk.css.map",
+    "static/css/main.c2aeffea.chunk.css.map": "/React-Portfolio/static/css/main.c2aeffea.chunk.css.map",
     "static/js/2.b80c25e9.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.b80c25e9.chunk.js.LICENSE.txt",
     "static/media/Chirper.f116dfae.gif": "/React-Portfolio/static/media/Chirper.f116dfae.gif",
     "static/media/DailyPlanner.b757fbd1.gif": "/React-Portfolio/static/media/DailyPlanner.b757fbd1.gif",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.7855121e.js",
     "static/css/2.63f5f3d7.chunk.css",
     "static/js/2.b80c25e9.chunk.js",
-    "static/css/main.0ed37701.chunk.css",
+    "static/css/main.c2aeffea.chunk.css",
     "static/js/main.0c16980f.chunk.js"
   ]
 }
