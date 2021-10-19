@@ -61,7 +61,7 @@ To run the application clone my repo and run npm install.
 
 ## Demonstration
 
-![React Portfolio Demo](../../assets/images/ReactPortfolio.gif)
+![React Portfolio Demo](./src/assets/images/ReactPortfolio.gif)
 
 ## Questions
 
