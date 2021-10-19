@@ -1,11 +1,11 @@
 import React from "react";
-import Style from "../../index.css";
+import "../../index.css";
 import ResumeFile from "../../assets/Nemanja Ajvaz - Service Delivery Manager.pdf";
 
 export default function Resume() {
   return (
     <div className="resumeContainer">
-      <h1 className="resume-title">Looking for a junior developer?</h1>
+      <h1 className="resumeTitle">Looking for a junior developer?</h1>
       <h3>Some technologies that I have used: </h3>
       <ul>
         <li>HTML</li>

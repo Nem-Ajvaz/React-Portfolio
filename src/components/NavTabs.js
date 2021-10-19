@@ -2,6 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 
 function NavTabs({ currentPage, handlePageChange }) {
+  console.log(currentPage);
   return (
     <header>
       <nav className="navBarContainer">
@@ -23,7 +24,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
               className={
-                currentPage === "Portfolio" ? "nav-link-on" : "nav-link"
+                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
               }
             >
               Portfolio

@@ -2,16 +2,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Deployed Link
-
 ## Description
 
-The Budget-Tracker is a web application that allows users to see and monitor their expenses. On payday or winning the lottery the user is able to add funds to their account and subtract when withdrawing. The graph shows the users history with withdraws and deposits. The application is usable offline by leveraging data cached during your last interactions with the app through PWAs (Progressive Web Apps).
+The Portfolio is used as an introduction to React and single page web applications.
 
 ## Table of Contents
 
 - [React-Portfolio](#react-portfolio)
-  - [Deployed Link](#deployed-link)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [User Story](#user-story)
@@ -60,7 +57,11 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Installation
 
+To run the application clone my repo and run npm install.
+
 ## Demonstration
+
+![React Portfolio Demo](../../HW/React%20Portfolio/src/assets/images/ReactPortfolio.gif)
 
 ## Questions
 

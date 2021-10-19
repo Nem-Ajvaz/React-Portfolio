@@ -4,6 +4,8 @@ import Chirper from "../../assets/images/Chirper.gif";
 import ReelMovies from "../../assets/images/ReelMovies.gif";
 import NoteTaker from "../../assets/images/NoteTaker.gif";
 import WeatherApp from "../../assets/images/WeatherApp.gif";
+import JavaScriptQuiz from "../../assets/images/JavaScriptQuiz.gif";
+import DailyPlanner from "../../assets/images/DailyPlanner.gif";
 
 const portfolioContent = [
   {
@@ -49,6 +51,7 @@ const portfolioContent = [
     technologies: "Jquery, LocalStorage,",
     githubLink: "https://github.com/Nem-Ajvaz/homework_5",
     liveLink: "https://nem-ajvaz.github.io/homework_5/",
+    gif: DailyPlanner,
   },
   {
     name: "JavaScript Quiz",
@@ -57,6 +60,7 @@ const portfolioContent = [
     technologies: "Jquery, JavaScript, YouoTube API, OMBD API, TailWind",
     githubLink: "https://github.com/Nem-Ajvaz/homework_4",
     liveLink: "https://nem-ajvaz.github.io/homework_4/",
+    gif: JavaScriptQuiz,
   },
 ];
 

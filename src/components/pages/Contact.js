@@ -27,18 +27,36 @@ function Contact() {
     e.preventDefault();
 
     if (
-      !validateEmail(email) ||
       !validateInput(name) ||
+      !validateInput(email) ||
       !validateInput(message)
     ) {
-      setErrorMessage("Please make sure all forms are filled in");
+      setErrorMessage("Esnure no fields are empty");
+      return;
+    }
 
+    if (!validateEmail(email)) {
+      setErrorMessage("Enter a valid email");
       return;
     }
 
     setName("");
     setMessage("");
     setEmail("");
+  };
+
+  const handleFormEmpty = (e) => {
+    if (
+      !validateInput(name) ||
+      !validateInput(email) ||
+      !validateInput(message)
+    ) {
+      setErrorMessage("Ensure no fields are blank");
+    } else if (!validateEmail(email)) {
+      setErrorMessage("Enter a valid email");
+    } else {
+      setErrorMessage("");
+    }
   };
 
   return (
@@ -54,6 +72,7 @@ function Contact() {
             value={name}
             name="name"
             onChange={handleInputChange}
+            onInput={handleFormEmpty}
             type="name"
             placeholder="Please enter your name"
           />
@@ -64,6 +83,7 @@ function Contact() {
             value={email}
             name="email"
             onChange={handleInputChange}
+            onInput={handleFormEmpty}
             type="email"
             placeholder="Please enter your email address"
           />
@@ -72,6 +92,7 @@ function Contact() {
           value={message}
           name="message"
           onChange={handleInputChange}
+          onInput={handleFormEmpty}
           type="message"
           placeholder="What would you like to say.. "
         />
@@ -84,7 +105,10 @@ function Contact() {
             ""
           )}
         </div>
-        <button type="submit"> Send Message</button>
+        <button type="button" onClick={handleFormSubmit}>
+          {" "}
+          Send Message
+        </button>
       </form>
     </div>
   );
